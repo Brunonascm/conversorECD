@@ -465,7 +465,7 @@ if file_sped and df_novo is not None:
                     with col_conferido:
                         st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
                         st.checkbox(
-                            "Confirmar",
+                            "Conferido",
                             key=key_conf,
                             on_change=on_confirm_change,
                             args=(cod_atual,),
